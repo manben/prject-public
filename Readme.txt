@@ -1,4 +1,4 @@
 git folder:/e/gitproject
-git user name:manben
-git user email:grady.zhou@qq.com
-passphrase:32918146@qq.com
+git user name:**ben
+git user email:**.**@qq.com
+passphrase:**91**@qq.com
