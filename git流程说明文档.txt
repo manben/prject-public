@@ -1,20 +1,20 @@
-1: Æô¶¯git bash
-git config --global user.name "gitÍøÕ¾µÄµÇÂ¼Ãû"
-git config --global user.email "gitÍøÕ¾µÈ¼¶µÄÓÊÏä"
+1: å¯åŠ¨git bash
+git config --global user.name "gitç½‘ç«™çš„ç™»å½•å"
+git config --global user.email "gitç½‘ç«™ç­‰çº§çš„é‚®ç®±"
 
-2£ºÈç¹ûµÚÒ»´ÎÊ¹ÓÃ£¬±¨´íÎóËµÕÒ²»µ½¶ÔÓ¦µÄÎÄ¼ş¼Ğ£¬ÔòÖ´ĞĞÃüÁî³õÊ¼»¯
+2ï¼šå¦‚æœç¬¬ä¸€æ¬¡ä½¿ç”¨ï¼ŒæŠ¥é”™è¯¯è¯´æ‰¾ä¸åˆ°å¯¹åº”çš„æ–‡ä»¶å¤¹ï¼Œåˆ™æ‰§è¡Œå‘½ä»¤åˆå§‹åŒ–
 git init
 
-»ñÈ¡£¨pull£©·şÎñÆ÷ÉÏµÄÎÄ¼şµ½±¾µØ
+è·å–ï¼ˆpullï¼‰æœåŠ¡å™¨ä¸Šçš„æ–‡ä»¶åˆ°æœ¬åœ°
 git pull git@github.com:manben/project-public.git
 
-3£ºÌí¼Ó±¾µØÎÄ¼şµ½github
-git add . --ÕâÀïµÄÒ»µã±íÊ¾Ìí¼ÓËùÓĞÎÄ¼ş
-git commit ¨Cm ¡°Ìá½»°æ±¾Ê±µÄ±¸×¢¡±
-git push git@github.com:manben/project-public.git
+3ï¼šæ·»åŠ æœ¬åœ°æ–‡ä»¶åˆ°github
+git add . --è¿™é‡Œçš„ä¸€ç‚¹è¡¨ç¤ºæ·»åŠ æ‰€æœ‰æ–‡ä»¶
+git commit â€“m â€œæäº¤ç‰ˆæœ¬æ—¶çš„å¤‡æ³¨â€
+git push git@github.com:manben/project-public.git master --æäº¤åˆ°masteråˆ†æ”¯
 
-Ìá½»Ê±ÒªÑéÖ¤rsaÃÜÂë£¬ÊäÈëÔÚssh-keygen´´½¨rsaÃÜÔ¿ÊÇµÄÃÜÂë
+æäº¤æ—¶è¦éªŒè¯rsaå¯†ç ï¼Œè¾“å…¥åœ¨ssh-keygenåˆ›å»ºrsaå¯†é’¥æ˜¯çš„å¯†ç 
 
-Ìá½»³É¹¦£¬ÔÚgithubÉÏ²é¿´Ìá½»µÄÄÚÈİ¡£
+æäº¤æˆåŠŸï¼Œåœ¨githubä¸ŠæŸ¥çœ‹æäº¤çš„å†…å®¹ã€‚
 
-gitºÍgithub²ÉÓÃrsa·Ç¶Ô³Æ¼ÓÃÜ£¬gitÊ¹ÓÃprivate key¼ÓÃÜÄÚÈİ£¬¶øgithubÊ¹ÓÃpublic keyÑéÖ¤ÄÚÈİµÄÕıÈ·ĞÔ£¬Òò´ËÊ¹ÓÃgithubÍøÕ¾ÉÏµÄssh keyÀ´ÑéÖ¤
+gitå’Œgithubé‡‡ç”¨rsaéå¯¹ç§°åŠ å¯†ï¼Œgitä½¿ç”¨private keyåŠ å¯†å†…å®¹ï¼Œè€Œgithubä½¿ç”¨public keyéªŒè¯å†…å®¹çš„æ­£ç¡®æ€§ï¼Œå› æ­¤ä½¿ç”¨githubç½‘ç«™ä¸Šçš„ssh keyæ¥éªŒè¯
