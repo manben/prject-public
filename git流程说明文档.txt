@@ -18,3 +18,9 @@ git push git@github.com:manben/project-public.git master --提交到master分支
 提交成功，在github上查看提交的内容。
 
 git和github采用rsa非对称加密，git使用private key加密内容，而github使用public key验证内容的正确性，因此使用github网站上的ssh key来验证
+
+将ssh-rsa-key加入到ssh-agent，之后提交和获取项目不用再次输入密码，具体步骤：
+执行命令：
+eval $(ssh-agent -s)
+ssh-add /rsa私钥所在的文件夹/id_rsa
+运行完ok
