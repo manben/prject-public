@@ -1,0 +1,20 @@
+1: 启动git bash
+git config --global user.name "git网站的登录名"
+git config --global user.email "git网站等级的邮箱"
+
+2：如果第一次使用，报错误说找不到对应的文件夹，则执行命令初始化
+git init
+
+获取（pull）服务器上的文件到本地
+git pull git@github.com:manben/project-public.git
+
+3：添加本地文件到github
+git add . --这里的一点表示添加所有文件
+git commit –m “提交版本时的备注”
+git push git@github.com:manben/project-public.git
+
+提交时要验证rsa密码，输入在ssh-keygen创建rsa密钥是的密码
+
+提交成功，在github上查看提交的内容。
+
+git和github采用rsa非对称加密，git使用private key加密内容，而github使用public key验证内容的正确性，因此使用github网站上的ssh key来验证
